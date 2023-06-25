@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.sidebar{
+    height: 100vh;
+    width: 300px;
+   margin: 5px;
+    font-family: "Roboto";
+    padding: 20px;
+    
+}
+.main-logo{
+    background-color:#F1948A ;
+    padding: 20px;
+    color: #fff;
+    font-size: 26px;
+    border-radius: 50%;
+    margin:10px;
+}
+.main{
+    display: flex;
+    align-items: center;
+}
+.name{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+.about{
+    margin: 0;
+    padding: 0;
+    color: #B2BABB;
+    font-size: 18px;
+}
+.conversation-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30%;
+  
+}
+.conversation-menu-heading{
+    font-weight: 500;
+   
+}
+
+.add-btn{
+    border-radius: 50%;
+    border:2px solid #626567;
+    padding: 4px 8px ;   
+    margin-left: 10px;
+}

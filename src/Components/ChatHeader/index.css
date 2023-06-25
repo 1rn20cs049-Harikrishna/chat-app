@@ -1,0 +1,12 @@
+.header{
+     width: 75vw;
+     padding: 15px;
+     overflow-y: hidden;
+     display: flex;
+     min-height:60px;
+     align-items: center;
+     justify-content: space-between;
+     font-family: "Roboto";
+     font-size: 18px;
+     padding-right: 20px;
+}

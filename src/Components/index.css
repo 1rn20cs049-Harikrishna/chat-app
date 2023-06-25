@@ -1,0 +1,59 @@
+.chat-page{
+    background-color: #EBF5FB;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    overflow-y:auto;
+    overflow-x: hidden;
+   }
+
+.MessagePageBody{
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    flex-grow: 10;
+    height:550px;
+    padding-left: 20px;
+    
+}
+.ChatInput {
+    display: flex;
+    border-radius: 30px;
+    border:2px solid #7F8C8D;
+    width: 60%;
+    padding: 15px 20px;
+    margin: 20px;
+    background-color:#EBF5FB ;
+    outline: none;
+    justify-content: space-between;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+}
+.ChatInput input{
+    width: 95%;    
+    margin: 5px;
+    background-color:#EBF5FB ;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+  
+}
+
+.emoji-icon{
+    height: 25px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.send-btn{
+    background: none;
+    border: none;
+    outline: none;
+    color:rgb(156, 4, 4);
+    cursor: pointer;
+    padding: 20px;
+    text-align: center;
+    line-height: 20%;
+}

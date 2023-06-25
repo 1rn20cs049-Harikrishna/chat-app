@@ -1,0 +1,67 @@
+.messageContainer{
+    display: flex;
+    padding:2px 5px ;
+   justify-content: space-between;
+margin-top: -10px;
+}
+
+.chatProfile{
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #BB8FCE;    
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    text-align: center;  
+}
+
+.messageBox{
+    padding: 1px 10px 3px 15px;
+    background-color: #fff; 
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;    
+    min-width: fit-content;   
+    max-width: 70%;
+    margin-left: 60px;
+    margin-top: -20px;
+    display: flex;
+    margin-right: 20px;
+    position: relative;
+   
+}
+.messageView{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+}
+.username{
+    font-weight: 600;
+    font-size: 18px;   
+    margin-left: 5px;
+}
+
+.chat-time{
+    font-weight: 400;
+    color:#909497;
+    font-size: 16px;
+}
+
+.messageContent{
+    position: relative;
+}
+.like-btn{
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 24px;
+  text-align: right;     
+}
+
+.likeCount{
+    font-size: 16px;
+    color:#26c88a;
+    margin-right: 2px;
+    margin-top: 10px;
+}

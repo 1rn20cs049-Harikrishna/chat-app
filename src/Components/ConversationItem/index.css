@@ -1,0 +1,22 @@
+.chat-item{
+    display: flex;
+    align-items: center;
+    padding: auto;
+    margin:10px ;
+    padding: 5px;
+    border-radius: 20px;
+}
+.individual-logo{
+    background-color: #F2F3F4;
+    padding: 18px;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 30%;
+    margin-right: 20px;
+    color: black;
+}
+.chat-item:hover{
+    background-color: #A569BD;
+    color: azure;
+    cursor: pointer;
+}
